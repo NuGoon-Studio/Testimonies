@@ -3,7 +3,7 @@ import React from 'react';
 
 // CONFIG: React Navigation setup wrapper
 import { NavigationContainer } from '@react-navigation/native';
-import AppTabs from './AppTabs';
+import AppTabs from './Screens/AppTabs';
 
 /************* RETURN **************/
 const App = () => {

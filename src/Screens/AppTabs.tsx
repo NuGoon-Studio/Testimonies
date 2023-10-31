@@ -1,12 +1,13 @@
 /************* Imports **************/
 import React from 'react';
 
+import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
+
 // CONFIG: React Navigation botom tab setup
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeTab from './Tabs/HomeTab';
 import SettingsTab from './Tabs/SettingsTab';
-
-import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
+import PostTab from './Tabs/PostTab';
 
 /************* Setup **************/
 //CONFIG: React Navigation Bottom Tabs setup
@@ -21,6 +22,8 @@ const AppTabs = () => {
 
         if (route.name === 'Home')
           iconName = focused ? 'house' : 'house';
+        else if (route.name === 'Post')
+          iconName = focused ? 'plus' : 'plus';
         else if (route.name === 'Settings')
           iconName = focused ? 'gears' : 'gears';
         else
@@ -33,6 +36,7 @@ const AppTabs = () => {
       tabBarInactiveTintColor: 'gray',
     })}>
       <Tab.Screen name="Home" component={HomeTab} />
+      <Tab.Screen name="Post" component={PostTab} />
       <Tab.Screen name="Settings" component={SettingsTab} />
     </Tab.Navigator>
   )
