@@ -5,11 +5,11 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "web": "webpack-dev-server --config ./web/webpack.config.js --mode development",
+    "web:build": "webpack --config ./web/webpack.config.js --mode production",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
-    "web": "webpack-dev-server --config ./web/webpack.config.js --mode development",
-    "web:build": "webpack --config ./web/webpack.config.js --mode production"
+    "test": "jest"
   },
   "dependencies": {
     "react": "18.2.0",
