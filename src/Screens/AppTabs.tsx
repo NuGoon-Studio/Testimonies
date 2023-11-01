@@ -5,9 +5,9 @@ import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
 
 // CONFIG: React Navigation botom tab setup
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeTab from './Tabs/HomeTab';
-import SettingsTab from './Tabs/SettingsTab';
-import PostTab from './Tabs/PostTab';
+import HomeTab from './tabs/HomeTab';
+import PostTab from './tabs/PostTab';
+import SettingsTab from './tabs/SettingsTab';
 
 /************* Setup **************/
 //CONFIG: React Navigation Bottom Tabs setup
@@ -17,6 +17,7 @@ const Tab = createBottomTabNavigator();
 const AppTabs = () => {
   return (
     <Tab.Navigator screenOptions={({ route }) => ({
+      headerShown: false,
       tabBarIcon: ({ focused, color, size }) => {
         let iconName : string = '';
 
