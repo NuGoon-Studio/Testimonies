@@ -6,11 +6,11 @@ import FontAwesome6IconButton from 'react-native-vector-icons/FontAwesome6';
 
 // CONFIG: React Navigation Hook example
 //import { useNavigation } from '@react-navigation/native';
-import type { RootStackNavigation } from '../App';
+import type { RootStackProps } from '../navigation/root/RootStackNavigator';
 
 // CONFIG: React Navigation Prop passing
 interface SplashScreenProps {
-  navigation: RootStackNavigation;
+  navigation: RootStackProps;
 }
 
 /************* RETURN **************/
@@ -26,7 +26,7 @@ const SplashScreen : React.FC<SplashScreenProps> = ({ navigation }) => {
       <FontAwesome6IconButton 
         name = 'house' 
         solid
-        onPress = {() => navigation.replace('Tabs')} 
+        onPress = {() => navigation.replace('AppTabs')} 
       >
         GO HOME...
       </FontAwesome6IconButton>
