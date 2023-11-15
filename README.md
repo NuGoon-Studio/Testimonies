@@ -34,6 +34,7 @@ During the job hunt process like many other hard moments in life it’s encourag
   <tr>
     <th> Frontend </th>
     <th> Backend </th>
+    <th> DevOps </th>
   </tr><tr>
     <td><ul>
       <li>React Native Web</li>
@@ -42,10 +43,16 @@ During the job hunt process like many other hard moments in life it’s encourag
       <li>Redux Sagas</li>
     </ul></td>
     <td><ul>
-      <li>AWS</li>
       <li>Node.js</li>
       <li>Express.js</li>
       <li>MongoDB</li>
+    </ul></td>
+    <td><ul>
+      <li>AWS</li>
+      <li> Route 53 </li>
+      <li>EC2: Frontend</li>
+      <li>EC2: Backend </li>
+      <li>EC2: MongoDB</li>
     </ul></td>
   </tr>
 </table>
