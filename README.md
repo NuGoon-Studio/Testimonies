@@ -20,6 +20,23 @@ Testimonies.Social is a mobile application to share the gospel through our indiv
 
 ## Roadmap
 ### Goals
+🧑‍🤝‍🧑 As a user I want to...  
+- Feel like I'm not alone in my struggle.
+- Feel inspired by others' victories.
+- Help others with my story.
+- Point people to the Lord.
+- Feel part of a community who wants to do more for others.
+- Feel accepted.
+- Find hope in my trial.
+- Be found.
+
+🧑‍💻 Some technical goals include:
+- Showcase my ability as an engineer unencumbered by client NDA's
+- Share 3 React Native Web templates without Expo
+- Share a fully built mobile application frontend
+- Test React Native for Web's viability in a production level application
+- Learn Devops from scratch
+- Master Backend development from scratch
 
 ### Progress
 Not all progress of the project is reflected here in this repository. The backend will be a private repository and dev ops work such as configure and CI/CD will also be private. For convience however I have included the status' of those aspects of the project in this document. The list of items will grow but remain mostly high level.
