@@ -128,6 +128,51 @@ Being able to share and read personal struggles and victories publicly is a powe
 ### Backend Development
 With direction from close colleagues, I’m excited to implement a RESTFUL API from the ground up. My experience with the backend has been reserved to a handful of routes and modification of existing routes. The limited scope of the project allows for the growth of my abilities as an engineer. This will officially transition my skillset from frontend to full stack engineer.
 
+## Usage
+### Installation
+Navigate to the folder you want to store things and clone the repository
+```bash
+git clone https://github.com/NuGoon-Studio/Testimonies.git
+```
+
+### Setup
+Install the dependencies with yarn
+```bash
+# using Yarn
+yarn install
+```
+
+### Running Application
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ , _iOS_ or _Web_ app:
+
+### For Android
+```bash
+# using Yarn
+yarn android
+```
+
+### For iOS
+```bash
+# using Yarn
+yarn ios
+```
+
+### For Web
+```bash
+# using Yarn
+yarn web
+
+# Web App hosted on http://localhost:8080/
+```
+### Validating Types
+```bash
+# using Yarn
+yarn tsc
+```
+
+### Your turn
+Feel free to play around with the project yourself. Edit and modify however. The entry point has been modified to <strong><em>src/App.tsx</em></strong> with the <strong><em>web/public/index.html</em></strong> being another noteworthy file within the project.
+
 ## Conclusion
 ### Inspiration
 During the job hunt process like many other hard moments in life it’s encouraging to connect and hear stories of others who have gone through a similar process. With this products mission and the opportunity grow as a engineer I am looking forward to providing real hope amidst the trial of day to day life.
