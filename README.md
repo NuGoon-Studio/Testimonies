@@ -18,6 +18,60 @@ Testimonies.Social is a mobile application to share the gospel through our indiv
 
 <img src="https://i.imgur.com/BDroZmP.png" width="1000" height="300" alt="3 Panel Mock Up" />
 
+## Roadmap
+### Goals
+
+### Progress
+Not all progress of the project is reflected here in this repository. The backend will be a private repository and dev ops work such as configure and CI/CD will also be private. For convience however I have included the status' of those aspects of the project in this document. The list of items will grow but remain mostly high level.
+
+<table>
+  <tr>
+    <th> Frontend </th>
+    <th> Backend </th>
+    <th> DevOps </th>
+  </tr><tr>
+    <td><ul>
+      <li>✅ <a href="https://github.com/rayraydejesus/React-Native-Web-Bare-Template" target="_blank" rel="noreferrer">Template - React Native Web Bare</a> (No Expo)</li>
+      <li>Template - React Native Web w/ React Navigation</li>
+      <li>Template - React Native Web w/ React Navigation, Redux and Redux Sagas</li>
+      <li>✅ React Native without Expo Project</li>
+      <li>✅ Integrate React Navigation</li>
+      <li>Integrate Redux</li>
+      <li>Integrate Redux Sagas</li>
+      <li>Refactor React Navigation for Redux</li>
+      <li>Integrate component library - TBD which library</li>
+      <li>Push live to web for active progress</li>
+      <li>Build application with local mock data</li>
+      <li>Connect application to API</li>
+      <li>Publish application to iOS app store</li>
+      <li>Publish application to android play store</li>
+    </ul></td>
+    <td><ul>
+      <li>Node.js Server Setup</li>
+      <li>Express.js Integration</li>
+      <li>MongoDB Setup</li>
+      <li>MongoDB Schema Config</li>
+      <li>Integrate Authenication - TBD which tech</li>
+      <li>Build application routes</li>
+    </ul></td>
+    <td><ul>
+      <li>✅ Purchase relative domains</li>
+      <li>✅ AWS Organizaional Structure</li>
+      <li>✅ AWS Permission Sets</li>
+      <li>✅ AWS IAM Groups</li>
+      <li>✅ AWS IAM Users</li>
+      <li>✅ AWS Billing Config</li>
+      <li>✅ AWS CLI Config</li>
+      <li>Route53 Domain Setup</li>
+      <li>EC2 - Frontend</li>
+      <li>EC2 - Backend</li>
+      <li>EC2 - MongoDB</li>
+      <li>CI/CD Pipeline - Frontend</li>
+      <li>CI/CD Pipeline - Backend</li>
+    </ul></td>
+  </tr>
+</table>
+
 ## Challenges
 ### Sorting Testimonies
 Mimicking the “fan out” approach
