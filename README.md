@@ -4,15 +4,18 @@ Sharing stories of faith.
 
 ## Overview
 ### Intro
-Testimonies.Social is a mobile application to share the gospel through our individual experiences. By sharing our personal stories of faith, perseverance and trial we can inspire and encourage others going through similar situations. Our goal is for users to receive hope, receive prayer and be found by others seeking the same.
+Testimonies.Social is a mobile application to share the gospel through our individual experiences. By sharing our personal stories of faith, perseverance and trial we can inspire and encourage others going through similar situations. Our goal is for users to receive hope, receive prayer and be found by others seeking the same. 🙏🙏🙏
 
 ### Key Features
-- Sharing testimonies publicly and Anonymously.
+- Sharing testimonies publicly and anonymously.
 - Finding testimonies through a tag search system. 
 - Paticipating in testimonies of gratitude and prayer. 
 - Following ongoing testimonies you can pray for.
 
-###
+### Additional Material
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/1200px-Canva_icon_2021.svg.png?20220821125247" width="20" height="20" alt="Canva" /> <a href="https://www.canva.com/design/DAF0WghOB58/8bt4_87FLKZgUkNGUf9CcQ/view?utm_content=DAF0WghOB58&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noreferrer">Original project write up</a>  
+<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="20" height="20" alt="Figma" /> <a href="https://www.figma.com/proto/DWuZCxqD7rb71v1oZk8VyQ/testimonies?type=design&node-id=90-30734&t=IhHsr4DN5i1xeEAP-0&scaling=scale-down&page-id=21%3A21821&starting-point-node-id=90%3A30734" target="_blank" rel="noreferrer">Design prototype</a>
+
 
 ## Challenges
 ### Sorting Testimonies
