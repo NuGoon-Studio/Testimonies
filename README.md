@@ -62,7 +62,7 @@ Not all progress of the project is reflected here in this repository. The backen
       <li>✅ AWS IAM Users</li>
       <li>✅ AWS Billing Config</li>
       <li>✅ AWS CLI Config</li>
-      <li>Route53 Domain Setup</li>
+      <li>Route 53 Domain Setup</li>
       <li>EC2 - Frontend</li>
       <li>EC2 - Backend</li>
       <li>EC2 - MongoDB</li>
