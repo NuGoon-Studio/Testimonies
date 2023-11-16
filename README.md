@@ -1,6 +1,6 @@
 Testimonies.Social
 ====================================================================================================================================
-Sharing stories of faith.
+📲 Sharing stories of faith.
 
 ## Overview
 ### Intro
