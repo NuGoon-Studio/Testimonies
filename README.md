@@ -49,8 +49,9 @@ Not all progress of the project is reflected here in this repository. The backen
   </tr><tr>
     <td><ul>
       <li>✅ <a href="https://github.com/rayraydejesus/React-Native-Web-Bare-Template" target="_blank" rel="noreferrer">Template - React Native Web Bare</a> (No Expo)</li>
-      <li>Template - React Native Web w/ React Navigation</li>
+      <li>✅ <a href="https://github.com/rayraydejesus/React-Native-Web-Navigation-Template" target="_blank" rel="noreferrer">Template - React Native Web w/ React Navigation</a> (No Expo)</li>
       <li>Template - React Native Web w/ React Navigation, Redux and Redux Sagas</li>
+      <li> Document Templates </li>
       <li>✅ React Native without Expo Project</li>
       <li>✅ Integrate React Navigation</li>
       <li>Integrate Redux</li>
