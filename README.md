@@ -81,9 +81,11 @@ Not all progress of the project is reflected here in this repository. The backen
       <li>✅ AWS Billing Config</li>
       <li>✅ AWS CLI Config</li>
       <li>Route 53 Domain Setup</li>
-      <li>EC2 - Frontend</li>
-      <li>EC2 - Backend</li>
-      <li>EC2 - MongoDB</li>
+      <li>Kubernetes Master ECR</li>
+      <li>Kubernetes Node EC2</li>
+      <li>Docker Pod - Frontend</li>
+      <li>Docker Pod - Backend</li>
+      <li>Docker Pod - MongoDB</li>
       <li>CI/CD Pipeline - Frontend</li>
       <li>CI/CD Pipeline - Backend</li>
     </ul></td>
@@ -110,9 +112,10 @@ Not all progress of the project is reflected here in this repository. The backen
     </ul></td>
     <td><ul>
       <li>AWS</li>
-      <li>Route 53 Routing</li>
-      <li>Kubernetes Master ECR</li>
-      <li>Kubernetes Service Node EC2</li>
+      <li>Kubernetes</li>
+      <li>Route 53</li>
+      <li>ECR: Kubernetes Master</li>
+      <li>EC2: Kubernetes Node</li>
       <li>Docker Pod: Frontend</li>
       <li>Docker Pod: Backend</li>
       <li>Docker Pod: MongoDB</li>
