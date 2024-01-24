@@ -3,8 +3,8 @@ import React from 'react';
 
 // CONFIG: React Navigation setup wrapper
 import type { RootStackParams } from './RootStackParams';
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator, NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator, NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 import SplashScreen from '../../screens/SplashScreen';
 import AppTabs from '../../screens/AppTabs';

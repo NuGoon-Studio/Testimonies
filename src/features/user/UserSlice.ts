@@ -1,7 +1,7 @@
 /************* Imports **************/
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import type { AppState } from '../../state/AppStore';
+import type { RootState } from '../../state/RootStore';
 
 /************* Setup **************/
 interface UserState {
@@ -17,18 +17,17 @@ export const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-    resetState: (state) => {
-      state = {...initialState};
-    },
-
+    // TODO: Pull reducers into their own file.
+    // TODO: Create common reducers file
+    resetState: () => initialState,
     updateEmail: (state, action: PayloadAction<string>) => {
       state.email = action.payload;
     },
   },
 });
 
-export const { resetState, updateEmail } =  userSlice.actions;
+export const { resetState, updateEmail } = userSlice.actions;
 
-export const selectEmail = (state: AppState) => state.user.email;
+export const selectEmail = (state: RootState) => state.user.email;
 
 export default userSlice.reducer;
