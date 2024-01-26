@@ -6,8 +6,8 @@ import type { RootStackParams } from './RootStackParams';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, NativeStackNavigationProp } from '@react-navigation/native-stack';
 
-import SplashScreen from '../../screens/SplashScreen';
-import AppTabs from '../../screens/AppTabs';
+import SplashScreen from '../../screens/root/SplashScreen';
+import AppTabs from '../internal/tabs/AppTabs';
 
 /************* Setup **************/
 type RootStackProps = NativeStackNavigationProp<RootStackParams>;

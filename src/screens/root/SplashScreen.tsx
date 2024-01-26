@@ -6,7 +6,7 @@ import FontAwesome6IconButton from 'react-native-vector-icons/FontAwesome6';
 
 // CONFIG: React Navigation Hook example
 //import { useNavigation } from '@react-navigation/native';
-import type { RootStackProps } from '../navigation/root/RootStackNavigator';
+import type { RootStackProps } from '../../navigation/root/RootStackNavigator';
 
 // CONFIG: React Navigation Prop passing
 interface SplashScreenProps {
